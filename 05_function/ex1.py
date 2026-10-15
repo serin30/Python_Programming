@@ -6,7 +6,7 @@
 
 def add(a, b):
     """a + b 결과를 변환한다"""
-    return a + b     # __add__()호출
+    return a + b     # __add__()호출(callable method) -> 다형성(Polymorphism) 성립
 
 print(add(3, 4))
 print(add("hello", "python"))
